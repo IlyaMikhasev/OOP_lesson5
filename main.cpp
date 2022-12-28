@@ -21,7 +21,7 @@
 int main() {
 	setlocale(LC_ALL, "Russian");
 	//Vector
-	/*
+	
 	std::vector<int>arr = {123,64};
 	arr.push_back(22);  //добавления данных в конец контейнера
 	arr.push_back(43);
@@ -63,9 +63,9 @@ int main() {
 		std::cout << '\n';
 	}
 	std::cout << '\n';
-	*/
+	
 	//queue (FIFO-первый зашел первый вышел)
-	/*
+	
 	std::queue<int> q;//создание очереди
 	q.push(5);
 	q.push(4);
@@ -80,9 +80,9 @@ int main() {
 		std::cout << q.front() << " ";
 		q.pop();
 	}
-	*/
+	
 	//stack (LIFO-последний зашел первый выйдет)
-	/*
+	
 	std::stack<std::string> st;//объявление контейнера стак
 	st.push("Helllo");
 	st.push("how are you");
@@ -91,7 +91,7 @@ int main() {
 		std::cout << st.top() << "\n";//st.top вывод верхнего елемента
 		st.pop();
 	}
-	*/
+	
 	//map-ассециативный контейнер который хранит в себе пару (ключ - значение)при этом ключ должен быть уникальнымдля каждого значения, даже если они повторяються
 	std::map<int, std::string> map;//объявление мап где значение инт , а ключ string
 	map.insert({ 1, "bob" });
